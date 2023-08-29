@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Affan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 09:21:17 PM"/>
+        <attribute name="created" value="QWZmYW47SFA7MjAyMy0wOC0yOTswOToxODo1NyBQTTsxOTI4"/>
+        <attribute name="edited" value="QWZmYW47SFA7MjAyMy0wOC0yOTswOToyMToxNyBQTTsxOzIwMjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="R" type="Integer" array="False" size=""/>
+            <input variable="R"/>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="3.14*R*R"/>
+            <output expression="A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

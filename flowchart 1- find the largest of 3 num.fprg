@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Affan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 10:50:02 PM"/>
+        <attribute name="created" value="QWZmYW47SFA7MjAyMy0wOC0yODsxMDozNTo1NyBQTTsxOTE4"/>
+        <attribute name="edited" value="QWZmYW47SFA7MjAyMy0wOC0yODsxMDo1MDowMiBQTTsxOzIwMTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a&gt;b">
+                <then>
+                    <if expression="a&gt;c">
+                        <then>
+                            <output expression="a" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="c" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="b&gt;c">
+                        <then>
+                            <output expression="c" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="b" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="processing" type="None" variable="">
+        <parameters>
+            <parameter name="parameter" type="Integer" array="False"/>
+        </parameters>
+        <body/>
+    </function>
+</flowgorithm>

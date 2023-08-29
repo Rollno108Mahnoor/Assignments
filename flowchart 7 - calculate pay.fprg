@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Affan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 09:30:23 PM"/>
+        <attribute name="created" value="QWZmYW47SFA7MjAyMy0wOC0yOTswOToyNzozNCBQTTsxOTIz"/>
+        <attribute name="edited" value="QWZmYW47SFA7MjAyMy0wOC0yOTswOTozMDoyMyBQTTsxOzIwMjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hours" type="Integer" array="False" size=""/>
+            <input variable="hours"/>
+            <declare name="rate" type="Integer" array="False" size=""/>
+            <input variable="rate"/>
+            <declare name="pay" type="Integer" array="False" size=""/>
+            <input variable="pay"/>
+            <assign variable="pay" expression="hours*rate"/>
+            <output expression="pay" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
